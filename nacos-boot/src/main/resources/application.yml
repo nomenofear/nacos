@@ -1,0 +1,19 @@
+
+spring:
+  application:
+    name: nacos-boot-lgp
+
+nacos:
+  config:
+    server-addr: 127.0.0.1:8848
+    namespace: f73f4940-9b74-404e-944f-fc14137426ef
+    ext-config:
+      - dataId: datasource
+        configType: yaml
+        authRefresh: true
+  discovery:
+    server-addr: 127.0.0.1:8848
+    namespace: f73f4940-9b74-404e-944f-fc14137426ef
+
+
+
